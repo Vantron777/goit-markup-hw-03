@@ -16,11 +16,11 @@ a {
 
 /* Header */
 .header {
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 .header-navigation {
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 .header-logo {
@@ -34,7 +34,7 @@ a {
 }
 
 .header-logo-studio {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 }
 
 .header-menu-list {
@@ -47,7 +47,7 @@ a {
 .header-menu-item {}
 
 .header-menu-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 }
 
 .header-menu-link:hover {
@@ -63,13 +63,13 @@ a {
 }
 
 .header-address-menu {
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 .header-address-item {}
 
 .header-address-link {
-    color: var(--SLATE, #434455);
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -84,11 +84,11 @@ a {
 
 /* Hero */
 .hero {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 
 .hero-title {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 56px;
@@ -100,8 +100,8 @@ a {
 }
 
 .hero-btn {
-    background: var(--IRIS, #4D5AE5);
-    color: var(--WHITE, #FFF);
+    background: #4D5AE5;
+    color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -220,7 +220,7 @@ a {
 }
 
 .footer-logo-btr {
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
