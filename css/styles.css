@@ -83,14 +83,18 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+    display: flex;
+    gap: 40px;
+}
 
 .header-menu-link {
     color: #2E2F42;
-    display: flex;
-    gap: 40px;
 }
 
 .header-menu-link:hover,
@@ -98,17 +102,19 @@ a {
     color: #404bbf;
 }
 
-.header-address {
-    gap: 40px;
-}
+.header-address {}
 
 .header-address-menu {
     background: #FFF;
     display: flex;
-    display: flex;
+    gap: 40px;
 }
 
-.header-address-item {}
+.header-address-item {
+    padding: 24px 0;
+    display: flex;
+    gap: 40px;
+}
 
 .header-address-link {
     color: #434455;
