@@ -38,26 +38,35 @@ a {
     text-decoration: none;
 }
 
+.container {
+    padding: 100px 0;
+    display: flex;
+}
+
 /* Header */
 .header {
     background: #FFF;
     min-width: 3em;
     text-transform: lowercase;
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .header-navigation {
     background: #FFF;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .header-logo-studio {
@@ -75,22 +84,21 @@ a {
 
 .header-menu-link {
     color: #2E2F42;
+    display: flex;
+    gap: 40px;
 }
 
-.header-menu-link:hover {
-    color: #404bbf;
-}
-
+.header-menu-link:hover,
 .header-menu-link:focus {
     color: #404bbf;
 }
 
-.header-address {
-    font-style: normal;
-}
+.header-address {}
 
 .header-address-menu {
     background: #FFF;
+    display: flex;
+    display: flex;
 }
 
 .header-address-item {}
@@ -112,29 +120,31 @@ a {
 /* Hero */
 .hero {
     background: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-title {
     color: #FFF;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     line-height: 1.07;
+    max-width: 496px;
 }
 
 .hero-btn {
     background: #4D5AE5;
     color: #FFF;
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
 }
 
 .hero-btn:hover {
@@ -177,7 +187,7 @@ a {
 }
 
 .our-team-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -244,9 +254,6 @@ a {
 /* Footer*/
 .footer {
     background-color: #2e2f42;
-}
-
-.container {
     padding: 100px 0;
 }
 
