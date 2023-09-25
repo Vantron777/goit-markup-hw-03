@@ -79,6 +79,7 @@ a {
 .header-menu-list {
     gap: 40px;
     display: flex;
+    padding: 24px 0;
 }
 
 .header-menu-item {
@@ -111,7 +112,6 @@ a {
 }
 
 .header-address-item {
-    padding: 24px 0;
     gap: 40px;
 }
 
@@ -176,13 +176,15 @@ a {
 
 .visually-hidden {
     position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
     width: 1px;
+    height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .about-us-title {}
