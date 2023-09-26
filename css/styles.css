@@ -40,11 +40,14 @@ a {
 }
 
 .container {
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container:first-child {
+    display: flex;
 }
 
 .section {
