@@ -264,6 +264,8 @@ a {
 
 .our-team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-name {
@@ -278,9 +280,10 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
 }
 
-.our-team-item-text {
+.our-team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -289,7 +292,10 @@ a {
 }
 
 /* Our Portfolio */
-.our-portfolio {}
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .our-portfolio-container {
     padding: 100px 0;
@@ -325,7 +331,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .our-portfolio-subtitle {
@@ -334,6 +339,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-item-text {
