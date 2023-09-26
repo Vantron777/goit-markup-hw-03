@@ -39,7 +39,17 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
 
+.section {
+    padding: 120px;
+}
 
 
 
@@ -86,14 +96,19 @@ a {
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
-}
-
-.header-menu-item {
     padding: 24px 0;
 }
 
+.header-menu-item {}
+
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
+    padding: 24px 0;
+}
+
+.header-menu-link:hover,
+:focus {
+    color: #404bbf;
 }
 
 .header-address {}
@@ -117,6 +132,8 @@ a {
 :focus {
     color: #404bbf;
 }
+
+
 
 
 /* Hero */
@@ -272,10 +289,7 @@ a {
 }
 
 /* Our Portfolio */
-.our-portfolio {
-    padding-top: 120px;
-    padding-top: 120px;
-}
+.our-portfolio {}
 
 .our-portfolio-container {
     padding: 100px 0;
@@ -333,6 +347,7 @@ a {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    display: flex;
 }
 
 .fotter-container {}
@@ -347,7 +362,7 @@ a {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    display: flex;
+
 }
 
 .span {
