@@ -108,12 +108,13 @@ a {
     color: #404bbf;
 }
 
-.header-address {}
+.header-address {
+    margin-left: 332px;
+}
 
 .header-address-menu {
     gap: 40px;
     display: flex;
-    margin-left: 332px;
 }
 
 .header-address-item {}
