@@ -4,6 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 
+p,
 h1,
 h2,
 h3,
@@ -13,15 +14,10 @@ h6 {
     margin: 0;
 }
 
-p {
-    margin: 0;
-}
-
 img {
     display: block;
     max-width: 100%;
     height: auto;
-    border-radius: 0px 0px 4px 4px;
 }
 
 button {
@@ -52,7 +48,6 @@ a {
 }
 
 
-
 /* Header */
 
 .header {
@@ -60,9 +55,15 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+    display: flex;
+    padding: 24px 0;
+}
+
 .header-navigation {
     background: var(--WHITE, #FFF);
     align-items: center;
+    display: flex;
 }
 
 .header-logo {
@@ -81,18 +82,21 @@ a {
 }
 
 .header-menu-list {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: flex-start;
     gap: 40px;
-    padding: 24px 0;
+    display: flex;
 }
 
 .header-menu-item {}
 
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    gap: 40px;
 }
 
 .header-menu-link:hover,
@@ -106,6 +110,7 @@ a {
 
 .header-address-menu {
     gap: 40px;
+    display: flex;
 }
 
 .header-address-item {}
@@ -182,6 +187,7 @@ a {
 }
 
 .about-us-list {
+    display: flex;
     gap: 24px;
 }
 
@@ -223,6 +229,7 @@ a {
 }
 
 .our-team-list {
+    display: flex;
     gap: 24px;
 }
 
@@ -272,6 +279,7 @@ a {
 }
 
 .our-portfolio-list {
+    display: flex;
     background-color: #FFFFFF;
     flex-wrap: wrap;
     column-gap: 24px;
