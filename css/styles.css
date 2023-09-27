@@ -82,7 +82,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -103,7 +103,7 @@ a {
 
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
-    padding: 24px 0;
+
 }
 
 .header-menu-link:hover,
@@ -116,6 +116,7 @@ a {
 .header-address-menu {
     gap: 40px;
     display: flex;
+    margin-left: 332px;
 }
 
 .header-address-item {}
