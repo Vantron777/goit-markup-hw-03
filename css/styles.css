@@ -60,10 +60,6 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-}
 
 .header-navigation {
     background: var(--WHITE, #FFF);
@@ -108,13 +104,13 @@ a {
     color: #404bbf;
 }
 
-.header-address {
-    margin-left: 332px;
-}
+.header-address {}
 
 .header-address-menu {
     gap: 40px;
     display: flex;
+    align-items: center;
+    margin-left: 332px;
 }
 
 .header-address-item {}
