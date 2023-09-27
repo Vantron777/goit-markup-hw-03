@@ -42,6 +42,7 @@ a {
 }
 
 .container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -96,7 +97,6 @@ a {
 
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
-
 }
 
 .header-menu-link:hover,
@@ -104,13 +104,13 @@ a {
     color: #404bbf;
 }
 
-.header-address {}
+.header-address {
+    margin-left: 332px;
+}
 
 .header-address-menu {
-    gap: 40px;
     display: flex;
-    align-items: center;
-    margin-left: 332px;
+    gap: 40px;
 }
 
 .header-address-item {}
@@ -120,7 +120,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-
+    align-items: center;
 }
 
 .header-address-link:hover,
