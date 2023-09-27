@@ -88,7 +88,9 @@ a {
     display: flex;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -113,7 +115,9 @@ a {
     display: flex;
 }
 
-.header-address-item {}
+.header-address-item {
+    padding: 24px 0;
+}
 
 .header-address-link {
     color: var(--SLATE, #434455);
